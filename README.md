@@ -9,7 +9,7 @@ The actor-critic algorithm is in the actor.py
 To train the VAE, load the data into python list data then call 
 
 _, vae, encoder = vae_training(data, file_path, latent_dim, intermediate_dim1, intermediate_dim2, epochs, batch_size)
-vae.fit(x_train, epochs, batch_size)
+
 
 here file_path is the file path to save the trained model, latent_dim, intermediate_dim1, intermediate_dim2 are the 
 number of latent dimension, intermediate dimension 1, intermediate dimension 2 resectively. epochs is the number of 
